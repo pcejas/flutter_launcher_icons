@@ -45,6 +45,7 @@ Map loadFlutterIconsConfig(Map config) {
 // TODO
 String isImagePathConfigValid(Map flutter_icons_config) {
   if (isImagePathInConfig(flutter_icons_config)) {
+    return null;
   } else {
     return "'image_path' missing from configuration";
   }

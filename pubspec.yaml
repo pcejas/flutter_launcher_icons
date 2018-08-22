@@ -10,10 +10,12 @@ authors:
 
 dependencies: 
   image: "^2.0.0"
-  dart_config: "^0.5.0"
+  dart_config: # forked from "^0.5.0"
+    git:
+      url: https://github.com/pcejas/dart_config.git
   
 environment:
-  sdk: '>=2.0.0-dev.49.0 <3.0.0'
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
 
 dev_dependencies:
-  test: '>=0.12.30 <1.0.0'
+  test: ^1.3.0
